@@ -1,6 +1,6 @@
 <h1>GoneWildChecker</h1>
 
-JS Bookmarklet to quickly find Gonewild posts by Reddit user<br /><br />
+JS Bookmarklet to quickly find Gonewild posts by any Reddit user. This is a quick build I did overnight. Please excuse the code mess, feel free to improve where you want.<br /><br />
 
 <h2>Installation</h2>
 [Click here, then drag GWChecker link to your bookmarks](http://eguru.co.nz/GWChecker/GWChecker.html)
