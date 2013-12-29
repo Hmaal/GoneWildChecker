@@ -12,7 +12,7 @@ $.getJSON(
           $.each(
             data.data.children.slice(0, 100),
             function (i, post) {
-            	
+                    
             if(post.data.subreddit === "gonewild") { 
             window.countIT++;
 
@@ -49,7 +49,7 @@ else{$("#result1").append('<div class="results" style="margin-left:10px;max-widt
 
 if (window.location.href.indexOf("/user/") > -1){
 
-var userCheck = jQuery('#siteTable').find('.author:first').text();
+var userCheck = jQuery('.titlebox:first').find('h1:first').text();
 window.countIT = 0;
 $("#siteTable:first").prepend('<div id="result1"></div>');
 $.getJSON(
@@ -59,7 +59,7 @@ $.getJSON(
           $.each(
             data.data.children.slice(0, 100),
             function (i, post) {
-            	
+                    
             if(post.data.subreddit === "gonewild") { 
             window.countIT++;
 
